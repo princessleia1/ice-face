@@ -1,0 +1,27 @@
+{
+  "fitbit": {
+    "appUUID": "332ea2b3-f5f2-4fa4-a6d1-c428d6fe43a6",
+    "appType": "app",
+    "appDisplayName": "ICE-Face",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#e91e63",
+    "requestedPermissions": [
+      "access_user_profile",
+      "access_location"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini"
+    ],
+    "i18n": {
+      "en": {
+        "name": "ICE-Face"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.1.0"
+  }
+}
