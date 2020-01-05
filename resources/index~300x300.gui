@@ -1,0 +1,60 @@
+<!-- Versa 300x300 -->
+<svg>
+	<use id="container" href="#panoramaview">
+		<!-- Item 1 Main View - ICE - In Case of Emergency -->
+		<use id="item1" href="#panoramaview-item">
+			<rect width="100%" height="100%" fill="red" />
+			<text id="text" x="10" y="50" fill="white" font-size="22" font-weight="bold" />
+			<set href="text" attributeName="text-buffer" to="ICE: IN CASE OF EMERGENCY" />
+			<!-- Image icon -->
+			<image x="130" y="75" width="50" height="50" href="./resources/icons/icon-black-80x80.png" />
+			<textarea id="text-custom" x="5" y="130" x="15" fill="white" width="100%-15" font-size="24" />
+			<set href="text-custom" attributeName="text-buffer" to="This app contains important information in case of an emergency. Swipe right to left to view: User Profile, ICE Contacts, Medical Contacts." />
+			<image x="130" y="75" width="50" height="50" href="./resources/icons/icon-black-80x80.png" />
+		</use>
+		<!-- Item 2 My ICE Profile View - Personal Info Details -->
+		<use id="item2" href="#panoramaview-item">
+			<rect width="100%" height="100%" fill="green" />
+			<text id="text" x="10" y="50" fill="white" font-size="30" font-weight="bold" />
+			<set href="text" attributeName="text-buffer" to="My ICE Profile" />
+		</use>
+		<!-- Item 3 My ICE Contacts View - ICE Contact Names and Numbers -->
+		<use id="item3" href="#panoramaview-item">
+			<rect width="100%" height="100%" fill="blue" />
+			<text id="text" x="10" y="50" fill="white" font-size="30" font-weight="bold" />
+			<set href="text" attributeName="text-buffer" to="My ICE Contacts" />
+		</use>
+		<!-- Item 4 My Medical Contacts Item - Hostpitals, Doctor, Emergency Number 000, 911 -->
+		<use id="item4" href="#panoramaview-item">
+			<rect width="100%" height="100%" fill="gray" />
+			<text id="text" x="10" y="50" fill="white" font-size="30" font-weight="bold" />
+			<set href="text" attributeName="text-buffer" to="My Medical Contacts" />
+		</use>
+		<!-- Item 5 My Spare View -->
+		<use id="item5" href="#panoramaview-item">
+			<rect width="100%" height="100%" fill="black" />
+			<text id="text" x="10" y="50" fill="white" font-size="30" font-weight="bold" />
+			<set href="text" attributeName="text-buffer" to="My Spare View" />
+			<defs>
+				<symbol id="custom-textarea" type="dynamic-textarea" system-events="all">
+					<textarea id="text" fill="white" x="0" y="0" width="100%" font-size="24" />
+					<rect x="0" y="$+15" width="100%" height="2" fill="fb-cyan" />
+				</symbol>
+			</defs>
+			<use id="custom" href="#custom-textarea" x="10" y="50" width="100%-15">
+				<set href="text" attributeName="text-buffer" to="Lorem ipsum dolor sit amet,
+    cum te cibo appareat. No per paulo hendrerit similique, vim et prima
+    appareat, ea elitr delectus deterruisset quo." />
+			</use>
+		</use>
+		<!-- Pagination dots for slides (extras are hidden) -->
+		<use id="pagination-dots" href="#pagination-widget" y="8">
+			<use href="#pagination-dot" />
+			<use href="#pagination-dot" />
+			<use href="#pagination-dot" />
+			<use href="#pagination-dot" />
+			<use href="#pagination-dot" />
+			<use href="#pagination-dot" />
+			<use href="#pagination-highlight-dot" /></use>
+	</use>
+</svg>
