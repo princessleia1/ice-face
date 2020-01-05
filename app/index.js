@@ -1,5 +1,10 @@
 import document from "document";
+import { me as device } from "device";
+import { battery } from "power";
+import { inbox } from "file-transfer";
+import * as cbor from "cbor";
 import * as messaging from "messaging";
+import * as fs from "fs";
 
 let background = document.getElementById("background");
 let container = document.getElementById("container");
@@ -8,7 +13,7 @@ let container = document.getElementById("container");
 let currentIndex = container.value;
 
 // Set the selected index
-container.value = 0; // jump to first slide
+container.value = 0; // Jump to first slide
 
 // Message is received
 messaging.peerSocket.onmessage = evt => {
