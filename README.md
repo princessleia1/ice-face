@@ -10,9 +10,6 @@
 * **ICE Contacts**: Add Contact First Name, Last Name, Phone Number, Relation.
 * **Medical Contacts**: Add Medical Contact Numbers such as Doctor, Hospital, Emergency Line.
 * **Other Notes**: Add any Other Notes (i.e., Private Health Insuarance, Organ Donator).
-<p align="middle">
-<img width="80" height="80" src=./resources/icons/icon-black-80x80.png>
-</p>
 
 ## Devices
 **Ice-Face** is built for Fitbit Devices: Ionic (348x250), Versa (300x300), Versa Lite (300x300) and Versa 2 (300x300).
@@ -22,13 +19,12 @@
 </p>
 
 ## TODO:
-- [ ] Add Text Input Companion Settings
-- [ ] Complete ICE Contacts View
-- [ ] Complete Medical Contacts View
-- [ ] Complete Other Info View
-- [ ] Add Clear Storage to Companion Settings
-- [ ] Add Links, Text Image Rows for Email, Github, Paypal
-- [ ] Optimise Scripts
+- [ ] Add Text Input Companion Settings.
+- [ ] Complete ICE Contacts View.
+- [ ] Complete Medical Contacts View.
+- [ ] Complete Other Info View.
+- [ ] Add Clear Storage to Companion Settings.
+- [ ] Add Links, Text Image Rows for Email, Github, Paypal.
 
 ## License
 **Ice-Face** App is licensed under the terms of the [GPL-3.0 License](/LICENSE). 
