@@ -15,7 +15,7 @@
 **Ice-Face** is built for Fitbit Devices: Ionic (348x250), Versa (300x300), Versa Lite (300x300) and Versa 2 (300x300).
 
 <p align="left">
-  <img width="300" height="300" src=./screenshots/ice-face-screenshot.png>
+  <img width="250" height="250" src=./screenshots/ice-face-screenshot.png>
 </p>
 
 ## TODO:
