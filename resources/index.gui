@@ -17,6 +17,13 @@
 			<rect width="100%" height="100%" fill="green" />
 			<text id="text" x="10" y="50" fill="white" font-size="30" font-weight="bold" />
 			<set href="text" attributeName="text-buffer" to="My ICE Profile" />
+			<!-- Image icon -->
+			<image x="130" y="75" width="50" height="50" href="./resources/icons/icon-black-80x80.png" />
+			<textarea id="text-custom" x="5" y="130" x="15" fill="white" width="100%-15" font-size="24" />
+			<set href="text-custom" attributeName="text-buffer" to="First Name:" />
+			<set href="text-custom" attributeName="text-buffer" to="Last Name:" />
+			<set href="text-custom" attributeName="text-buffer" to="Phone Number:" />
+			<image x="130" y="75" width="50" height="50" href="./resources/icons/icon-black-80x80.png" />
 		</use>
 		<!-- Item 3 My ICE Contacts View - ICE Contact Names and Numbers -->
 		<use id="item3" href="#panoramaview-item">
