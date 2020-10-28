@@ -1,8 +1,8 @@
 # Ice-Face
-**Ice-Face** is a Fitbit Ionic and Versa App for **ICE "In Case of Emergency"**. **Ice-Face** uses [Fitbit SDK V4.1](https://github.com/Fitbit). Work in Progress.
+**Ice-Face** is a Fitbit Ionic and Versa App for **ICE "In Case of Emergency"**. **Ice-Face** uses [Fitbit SDK V4.1](https://github.com/Fitbit). WIP.
 
 ## Features
-**Ice-Face** uses the Panorama View component which allows horizontal scrolling tiles. Pagination dots are used to indicate how many tiles are available, and which tile is currently selected. Text is input into the **Ice-Face** Companion Settings via Fitbit Mobile App.
+**Ice-Face** uses the Panorama View component allowing horizontal scrolling tiles. Pagination dots are used to indicate how many tiles are available, and which tile is currently selected. Text is input into the **Ice-Face** Companion Settings via Fitbit Mobile App.
 
 ### Panorama Views:
 
