@@ -18,15 +18,15 @@
   <img width="175" height="175" src=./screenshots/ice-face-screenshot.png>
 </p>
 
-## TODO:
+### TODO:
 - [ ] Add Text Input Companion Settings.
 - [ ] Complete ICE Contacts View.
 - [ ] Complete Medical Contacts View.
 - [ ] Complete Other Info View.
 - [ ] Add Clear Storage to Companion Settings.
-- [ ] Add Links, Text Image Rows for Email, Github, Paypal.
+- [ ] Add Links, Text Image Rows.
 
-## License
+### License
 **Ice-Face** App is licensed under the terms of the [GPL-3.0 License](/LICENSE). 
 
 <p align="middle">
